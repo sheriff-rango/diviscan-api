@@ -1,0 +1,34 @@
+{
+  "name": "diviscan-api",
+  "version": "1.0.0",
+  "description": "RESTful api for the diviscan block explorer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/99darwin/diviscan-api.git"
+  },
+  "keywords": [
+    "divi",
+    "diviscan",
+    "blockchain"
+  ],
+  "author": "99darwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/99darwin/diviscan-api/issues"
+  },
+  "homepage": "https://github.com/99darwin/diviscan-api#readme",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "coingecko-api": "^1.0.5",
+    "divid-rpc": "^3.0.92",
+    "express": "^4.16.3",
+    "lodash": ">=4.17.13",
+    "path": "^0.12.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
